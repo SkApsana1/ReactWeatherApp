@@ -23,7 +23,7 @@ const WeatherPage = () => {
       return;
     }
     setInput('');
-    fetchWeatherDetails(cityName);
+    fetchWeatherDetails(cigityName);
   };
 
   const fetchWeatherDetails = async (city) => {
